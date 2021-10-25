@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+.merriweather{
+	font-family: 'Merriweather', serif;
+}
+
+.redressed{
+	font-family: 'Redressed', cursive;
+}
+
+.cc-navbar{
+	background-color: rgba(0, 0, 0, 0.55);
+	box-shadow: rgba(255, 255, 255, 0.54);
+	z-index: 99;
+}
+
+.bannier{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/bannier.jpeg') 
+	center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.bannier-desc{
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.cc-navbar .nav-item{
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom 0.4s ease-in-out, border-color 0.4s ease;
+}
+
+.cc-navbar .nav-item: hover{
+	padding-bottom: 20px;
+	border-bottom-color: var(--bs-teal);
+}
+
+.btn-order{
+	color: var(--bs-teal);
+	border-color: var(--bs-teal);
+	transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+	color: #fff;
+	background-color: var(--bs-teal);
+}
